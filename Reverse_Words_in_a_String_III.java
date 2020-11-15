@@ -3,10 +3,10 @@ package Adhoc_Thinking;
 import java.util.*;
 public class Reverse_Words_in_a_String_III {
     public static String reverseWords(String s) {
-    	String[] s1=s.split(" ");
+    	StringTokenizer s1=new StringTokenizer(s);
     	StringBuffer result=new StringBuffer("");
-    	for(int i=0;i<s1.length;i++) {
-    		result=result.append(new StringBuffer(s1[i]).reverse()+" ");
+    	while(s1.hasMoreTokens()) {
+    		result=result.append(new StringBuffer(s1.nextToken()).reverse()+" ");
     	}
     	return result.toString().trim();
     }
