@@ -4,10 +4,10 @@ import java.util.*;
 public class Merge_Sorted_Array {
 	public static void merge(int[] nums1, int m, int[] nums2, int n) {
 		int j=0,i=m;
-        while(i<nums1.length){
-            nums1[i]=nums2[j];
-            i++;
-            j++;
+                while(i<nums1.length){
+                    nums1[i]=nums2[j];
+                    i++;
+                    j++;
         }
         Arrays.sort(nums1);
         System.out.println(nums1);
