@@ -1,3 +1,4 @@
+//this class is used to generate the testcases for the Binarysearch.java class 
 package Binary_Search_Thinking;
 import java.util.Arrays;
 import java.util.Random;
