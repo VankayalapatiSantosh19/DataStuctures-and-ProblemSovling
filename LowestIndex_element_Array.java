@@ -1,3 +1,4 @@
+//problem:Given an sorted array with duplicates and a integer value called target find an efficient algorithm to return the lowest index of the target in the given array 
 package Binary_Search_Thinking;
 
 import java.util.Random;
